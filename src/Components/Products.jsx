@@ -9,7 +9,7 @@ function Products() {
         {title:"Yahoo!",description:"Aqu Executive and its employees continue to receive orders for customers and customers that get orders for customers  ",live:true,case:false },
     ]
   return (
-    <div className="py-6">
+    <div className="mt-32">
         {products.map((val,index)=>(
             <Product key={index} val={val}/>
         ))}
