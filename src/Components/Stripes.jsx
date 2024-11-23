@@ -1,5 +1,4 @@
 import Strip from "./Strip"
-
 function Stripes() {
     var data= [
         {url:"https://cdn.prod.website-files.com/664dc8b6bc52b504509197f0/666359ba3497cf06ff9e8f79_63aedb713ba6d19b75099311_basf.svg",number:48},
@@ -10,12 +9,11 @@ function Stripes() {
         {url:"https://cdn.prod.website-files.com/664dc8b6bc52b504509197f0/666359b8724afca0a36e7e95_63aed9589c2695a8bfaa920e_yahoo.svg",number:11},
     ]
   return (
-    <div className="flex items-center mt-32">
+    <div className="flex items-center mt-32 py-6">
         {data.map((elem,index)=>{
            return <Strip key={index} val={elem}/>
         })}
     </div>
   )
 }
-
 export default Stripes

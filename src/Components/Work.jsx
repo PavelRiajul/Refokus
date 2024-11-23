@@ -8,7 +8,7 @@ function Work() {
     {url:"https://cdn.prod.website-files.com/664dc8b6bc52b504509197f0/6697d405786d15acd0e22a91_Kablamo%20-%204%203.webp", top:"60%", let:"53%", isActive:false},
   ]
   return (
-    <div className="w-ful mt-10">
+    <div className="w-full mt-10">
         <div className="max-w-screen-xl mx-auto text-center relative">
             <h1 className="text-[30vw] leading-none font-medium select-none tracking-tight">work</h1>
 
