@@ -1,5 +1,6 @@
 
 import Cards from "./Components/Cards"
+import Footer from "./Components/Footer"
 import Marquees from "./Components/Marquees"
 import Navbar from "./Components/Navbar"
 import Products from "./Components/Products"
@@ -17,6 +18,7 @@ function App() {
      <Products/>
      <Marquees/>
      <Cards/>
+     <Footer/>
     </div>
   )
 }
