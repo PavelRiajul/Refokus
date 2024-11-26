@@ -7,9 +7,10 @@ import Products from "./Components/Products"
 
 import Stripes from "./Components/Stripes"
 import Work from "./Components/Work"
-
+import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className="w-full bg-zinc-900 text-white font-['satoshi']">
      <Navbar/>
@@ -22,5 +23,4 @@ function App() {
     </div>
   )
 }
-
 export default App
