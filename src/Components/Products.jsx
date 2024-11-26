@@ -24,7 +24,9 @@ function Products() {
            animate={{y:position+`rem`}}
            transition={{ease:[0.76,0,0.24,1],duration:.5}}
             className=" window w-[32rem] h-[23rem] bg-sky-100 absolute left-[44%] -translate-x-[50%] overflow-hidden">
-          <motion.div animate={{y:-position+ `rem`}} transition={{ease:[0.76,0,0.24,1],duration:.5}}   className=" window w-full h-full bg-sky-100"></motion.div>
+          <motion.div animate={{y:-position+ `rem`}} transition={{ease:[0.76,0,0.24,1],duration:.5}}   className=" window w-full h-full bg-sky-100">
+            <img className="absolute left-2 top-28 z-10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXW8fNbu-dRjSomZ8BRL8vHAO-1eiytWrlsA&s" alt="" />
+          </motion.div>
           <motion.div animate={{y:-position+ `rem`}} transition={{ease:[0.76,0,0.24,1],duration:.5}}   className="  window w-full h-full bg-sky-200">
             <img className="absolute left-36 top-10 " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkG8GI34kOHFL3qyxK_45FiXU-AZR-HRCwhw&s" alt="" />
           </motion.div>
